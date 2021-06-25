@@ -1,0 +1,118 @@
+/*Main Css*/
+#heading {
+    width: 50%;
+    height: 250px;
+    margin: 30px;
+    border: 5px solid black;
+    /* Background properties */
+    background-image: url(https://www.costacruises.com/content/dam/costa/inventory-assets/ports/IST/ist-istanbul-port-2.jpg);
+    background-repeat: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    position: relative;
+    left: 25%;
+}
+
+/*style properties */
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(26,72,138,0.4321078773306197) 0%, rgba(0,212,255,1) 100%);
+}
+#result {
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: 'Courgette', cursive;
+}
+
+header p {
+   color: rgb(15, 20, 16);
+   font-weight: bold;
+    padding: 5px;
+}
+
+
+
+span:first-child {
+    background-color: chocolate;
+    text-shadow: 1px 1px 1px;
+}
+
+#lvng {
+    text-decoration: underline;
+
+}
+
+/* Main properties */
+nav img {
+    border: 5px solid black;
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+
+
+
+}
+
+.info,
+th,
+td {
+    border: 3px solid black;
+}
+
+
+
+
+.content {
+    display: block;
+    padding: 5px;
+
+}
+
+.info {
+    float: left;
+    margin: 10px;
+}
+
+nav {
+    position: absolute;
+    top: 50px;
+    left: 10%;
+}
+
+.icons,
+img {
+    display: block;
+    padding: 2px;
+}
+
+/*table changes*/
+tr:nth-child(1) {
+    background-color: black;
+    color: white;
+    font-family: 'Sansita Swashed', cursive;
+
+}
+
+td>img {
+    width: 55px;
+    height: 47px;
+}
+
+td:last-child {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(26,72,138,0.4321078773306197) 0%, rgba(0,212,255,1) 100%);
+}
+
+
+td:first-child a {
+text-decoration: underline;
+color: inherit;
+}
+
+#clock-content{
+    font-family: 'Indie Flower', cursive;
+}
+
